@@ -19,7 +19,6 @@
 
 - **router di esempio**
 - **middleware di esempio**
-- **middleware di esempio**
 - **utilizzo di variabili presenti nel file .env**
 - **utilizzo di morgan come logger ausiliario per le chiamate http**
 - **gestione degli errori tramite una classe personalizzata**
