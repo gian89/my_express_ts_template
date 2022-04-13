@@ -22,3 +22,4 @@
 - **utilizzo di variabili presenti nel file .env**
 - **utilizzo di morgan come logger ausiliario per le chiamate http**
 - **gestione degli errori tramite una classe personalizzata**
+- **possibilità settare un timeout sulla risposta di una funzione singolarmente o tramite un middleware**

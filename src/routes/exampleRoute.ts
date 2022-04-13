@@ -1,7 +1,11 @@
 import express, { Response, Request } from 'express';
-import { routeCaller } from '@libs/routeCaller/routeCaller';
-import { examplePromiseFunction, sumElement } from '@libs/exampleFunction/examplePromiseFunction';
+
 import { CustomError } from '@utilities/CustomError';
+import { routeCaller } from '@libs/routeCaller/routeCaller';
+import {
+  examplePromiseFunction,
+  sumElement,
+} from '@libs/exampleFunction/examplePromiseFunction';
 
 const exampleRoute = express.Router();
 
@@ -31,7 +35,6 @@ exampleRoute.post(
     }
   },
 );
-
 
 exampleRoute.post(
   '/sumElement/',
